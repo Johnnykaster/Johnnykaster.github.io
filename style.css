@@ -1,0 +1,99 @@
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+.headshot{
+    width:20%;
+    border-radius: 80px;
+   
+}
+.mid{
+    
+    
+    align-items:center;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.aboutme{
+    border:1px solid black;   
+}
+body{
+background: rgb(115,159,186);
+background: linear-gradient(90deg, rgba(115,159,186,1) 0%, rgba(204,231,244,1) 52%, rgba(49,162,199,1) 100%);
+}
+.header{
+  display: flex;
+}
+.menu{
+  margin-right: 190px;
+  margin-left: 190px
+  
+}
+.headshot{
+  transform: rotate(90deg);
+  height: 120px;
+  width: 150px;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.page{
+  text-decoration: underline;
+}
+.ptitle{
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+.phead{
+  text-align: center;
+}
+.psub{
+  marin-top: 10px;
+  opacity: 1;
+}
+.himages{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.home:hover {
+  background-color: rgb(0, 0, 155);
+  transition: .7s;
+  height: 25px;
+}
+.port:hover {
+  background-color: rgb(0, 0, 155);
+  transition: .7s;
+  height: 25px;
+}
+.about:hover {
+  background-color: rgb(0, 0, 155);
+  transition: .7s;
+  height: 25px;
+}
+.pimages {
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+}
+.plist {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+  font-size: 30px;
+}
+.projects {
+  margin: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.projecti {
+  margin: 0px, 50px, 0px, 50px;
+}
