@@ -1,4 +1,6 @@
 body {
-  background: rgb(115,159,186);
-background: linear-gradient(90deg, rgba(115,159,186,1) 0%, rgba(204,231,244,1) 52%, rgba(49,162,199,1) 100%);
+  background-image: url("Port Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
